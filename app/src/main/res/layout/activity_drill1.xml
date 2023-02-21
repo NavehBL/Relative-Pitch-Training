@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drill1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question: 0/30 "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/tvNumOfQuestion"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| "
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct: 0/0 "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/tvNumOfCorrect"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| "
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 0.0s"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/tvTime"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready? Tap 'Next' to start"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvInstructions"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="#00000000"
+        android:text="P8"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnP8Drill1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="#00000000"
+        android:text="m3"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="150dp"
+        android:id="@+id/btnm3Drill1"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replay"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:clickable="false"
+            android:id="@+id/btnReplayDrill1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnNextDrill1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

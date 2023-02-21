@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Theory"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="What you will\nneed to know\nin the drills"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Welcome to Relative Pitch Trainer, which will help you develop your relative pitch.\n\nWhat is relative pitch? It is the ability to identify a given musical note by comparing it to a reference note and identifying the interval between those two notes. A good relative pitch is a powerful tool that allows you to understand how music works by listening to it. It proves very helpful, be it for improvisations, compositions, arrangements, interpretations, singing, playing in a band, ..."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Intervals"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="An interval is the difference between two pitches. It can be described as melodic if it refers to successively-sounding tones, or harmonic if it pertains to simultaneously-sounding tones. In the case of a melodic interval, it can be ascending if the second pitch is higher than the first, or descending if the second is lower than the first.\n\nIn this app we shall focus on the study of three intervals, the major third, the minor third and the perfect octave."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Major Third"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="A major third is the interval between 3 degrees of the diatonic scale whose exact extent is 4 semitones. If we, for example, start from a C, a major third up will be E. To find E, we count 3 degrees: C-D-E. To verify that this is a E natural, we verify that from C to E there are well and truly 4 semitones."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <Button
+                android:id="@+id/btnM3Example"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#6F9F38"
+                android:text="play a major third (m3)"
+                tools:ignore="HardcodedText"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Minor Third"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="A minor third is the interval between 3 degrees of the diatonic scale whose exact extent is 3 semitones. If we, for example, start from a C, a minor third up will be E. To find E, we count 3 degrees: C-D-E. It must be flattened for there to be 3 semitones between C and this E."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <Button
+                android:id="@+id/btnm3Example"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#6F9F38"
+                android:text="PLAY A MINOR THIRD (m3)"
+                android:textAllCaps="false"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Perfect octave"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="A perfect octave is the interval between 8 degrees of the diatonic scale whose exact extent is 12 semitones. If we, for example, start from a C, the perfect octave up will be another C."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                tools:ignore="HardcodedText,VisualLintLongText" />
+
+            <Button
+                android:id="@+id/btnP8Theory"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#6F9F38"
+                android:text="PLAY A PERFECT OCTAVE (P8)"
+                android:textAllCaps="false"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
